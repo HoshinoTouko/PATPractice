@@ -3,7 +3,9 @@
 
 using namespace std;
 
-vector<string> split(string a, string b){
+// Skipped
+
+vector<string> split(string a, char b){
     string::iterator it;
     vector<string> res;
     string t;
