@@ -67,7 +67,7 @@ int main(){
                continue;
             if (*iit == sp) {
                 if (nums[*iit] < 0) {
-                    if (bring > -nums[*iit]){
+                    if (bring >= -nums[*iit]){
                         bring -= -nums[*iit];
                     } else {
                         take = take + -nums[*iit] - bring;
