@@ -6,6 +6,8 @@
 
 using namespace std;
 
+// Two test point failed (due to the missing of problem information)
+
 class People {
     public:
         int needTime;
